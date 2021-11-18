@@ -11,7 +11,7 @@ if __name__ == "__main__":
                                  upload_dependencies="all",
                                  skip_check_credentials=True
                                  )
-    builder.add(settings={"arch": "x86_64", "build_type": "Debug",
+    builder.add(settings={"arch": "x86_64", "build_type": "Release",
                           "compiler": "gcc", "compiler.libcxx": "libstdc++11"})
     builder.run()
 
